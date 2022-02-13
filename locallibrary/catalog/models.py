@@ -14,7 +14,7 @@ class Genre(models.Model):
 
     def __str__(self):
         """
-        Cadena que representa a la instancia particular del modelo (p. ej. en el sitio de Administración)
+        Cadena que representa a la instancia particular del modelo (p. ej. en el sitio de Administración)probando  git
         """
         return self.name
 
