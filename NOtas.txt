@@ -1,0 +1,18 @@
+Instalar manejador de enotornos virtuales
+
+pip3 install virtualenvwrapper-win
+==============================================
+Uso de un entorno virtual
+
+Hay sólo otros pocos comandos útiles que deberías conocer 
+(hay más en la documentación de la herramienta,
+ pero éstos son los que usarás de forma habitual:
+
+    deactivate — Salir del entorno virutal Python actual
+    workon — Listar los entornos virtuales disponibles
+    workon name_of_environment — Activar el entorno virtual Python especificado
+    rmvirtualenv name_of_environment — Borrar el entorno especificado.
+===============================================
+En la sección de pruebas viste brevemente cómo crear un nuevo sitio web Django usando django-admin startproject,
+ y hacerlo funcionar en tu explorador usando el servidor web de desarrollo (python3 manage.py runserver).
+=====================================================
